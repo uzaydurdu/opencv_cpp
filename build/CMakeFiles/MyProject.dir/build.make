@@ -69,28 +69,28 @@ include CMakeFiles/MyProject.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/MyProject.dir/flags.make
 
-CMakeFiles/MyProject.dir/main.cpp.o: CMakeFiles/MyProject.dir/flags.make
-CMakeFiles/MyProject.dir/main.cpp.o: /Users/uzaydurdu/Desktop/opencv_cpp/main.cpp
-CMakeFiles/MyProject.dir/main.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/uzaydurdu/Desktop/opencv_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyProject.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/main.cpp.o -MF CMakeFiles/MyProject.dir/main.cpp.o.d -o CMakeFiles/MyProject.dir/main.cpp.o -c /Users/uzaydurdu/Desktop/opencv_cpp/main.cpp
+CMakeFiles/MyProject.dir/motionDetection.cpp.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/motionDetection.cpp.o: /Users/uzaydurdu/Desktop/opencv_cpp/motionDetection.cpp
+CMakeFiles/MyProject.dir/motionDetection.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/uzaydurdu/Desktop/opencv_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyProject.dir/motionDetection.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/motionDetection.cpp.o -MF CMakeFiles/MyProject.dir/motionDetection.cpp.o.d -o CMakeFiles/MyProject.dir/motionDetection.cpp.o -c /Users/uzaydurdu/Desktop/opencv_cpp/motionDetection.cpp
 
-CMakeFiles/MyProject.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/uzaydurdu/Desktop/opencv_cpp/main.cpp > CMakeFiles/MyProject.dir/main.cpp.i
+CMakeFiles/MyProject.dir/motionDetection.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/motionDetection.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/uzaydurdu/Desktop/opencv_cpp/motionDetection.cpp > CMakeFiles/MyProject.dir/motionDetection.cpp.i
 
-CMakeFiles/MyProject.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/uzaydurdu/Desktop/opencv_cpp/main.cpp -o CMakeFiles/MyProject.dir/main.cpp.s
+CMakeFiles/MyProject.dir/motionDetection.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/motionDetection.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/uzaydurdu/Desktop/opencv_cpp/motionDetection.cpp -o CMakeFiles/MyProject.dir/motionDetection.cpp.s
 
 # Object files for target MyProject
 MyProject_OBJECTS = \
-"CMakeFiles/MyProject.dir/main.cpp.o"
+"CMakeFiles/MyProject.dir/motionDetection.cpp.o"
 
 # External object files for target MyProject
 MyProject_EXTERNAL_OBJECTS =
 
-MyProject: CMakeFiles/MyProject.dir/main.cpp.o
+MyProject: CMakeFiles/MyProject.dir/motionDetection.cpp.o
 MyProject: CMakeFiles/MyProject.dir/build.make
 MyProject: /opt/homebrew/lib/libopencv_gapi.4.8.1.dylib
 MyProject: /opt/homebrew/lib/libopencv_stitching.4.8.1.dylib

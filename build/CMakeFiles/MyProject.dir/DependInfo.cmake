@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/uzaydurdu/Desktop/opencv_cpp/main.cpp" "CMakeFiles/MyProject.dir/main.cpp.o" "gcc" "CMakeFiles/MyProject.dir/main.cpp.o.d"
+  "/Users/uzaydurdu/Desktop/opencv_cpp/motionDetection.cpp" "CMakeFiles/MyProject.dir/motionDetection.cpp.o" "gcc" "CMakeFiles/MyProject.dir/motionDetection.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

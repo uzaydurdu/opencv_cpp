@@ -129,29 +129,29 @@ MyProject/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/build
 .PHONY : MyProject/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+motionDetection.o: motionDetection.cpp.o
+.PHONY : motionDetection.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/main.cpp.o
-.PHONY : main.cpp.o
+motionDetection.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/motionDetection.cpp.o
+.PHONY : motionDetection.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+motionDetection.i: motionDetection.cpp.i
+.PHONY : motionDetection.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/main.cpp.i
-.PHONY : main.cpp.i
+motionDetection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/motionDetection.cpp.i
+.PHONY : motionDetection.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+motionDetection.s: motionDetection.cpp.s
+.PHONY : motionDetection.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/main.cpp.s
-.PHONY : main.cpp.s
+motionDetection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/motionDetection.cpp.s
+.PHONY : motionDetection.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MyProject"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... motionDetection.o"
+	@echo "... motionDetection.i"
+	@echo "... motionDetection.s"
 .PHONY : help
 
 
